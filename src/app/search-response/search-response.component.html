@@ -1,0 +1,8 @@
+<frame id="response" #response>
+    <ul>
+        <li *ngFor="let page of pages">
+            <a href="{{page.url}}">{{page.name}}</a>
+            <p>{{page.snippet}}</p>
+        </li>
+    </ul>
+</frame>
